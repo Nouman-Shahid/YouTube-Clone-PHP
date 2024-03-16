@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <style>
+            input{
+                border-radius: 10px;
+                padding: 10px;
+                margin-top: 15px;
+                font-size: 25px;
+                width: 420px;
+                border: 2px solid rgb(199, 199, 199);
+            }
+        </style>
+    </head>
+    <body>
+        <form action="connection.php" method="POST" enctype="multipart/form-data">
+            <center>
+                <div style="display: inline-block; border: 2px solid rgb(199, 199, 199);margin-top: 50px;
+                 height: 700px; width: 550px; border-radius: 15px;">
+                   <div style="margin-top: 50px;">
+
+                    <label style="font-size: 40px; font-weight: bolder;">
+                        <span style="color: blue;">G</span>
+                        <span style="color: red;">o</span>
+                        <span style="color: yellow;">o</span>
+                        <span style="color: blue;">g</span>
+                        <span style="color: green;">l</span>
+                        <span style="color: red;">e</span>
+                    </label>
+                    <br>
+                    <br>
+                    <label style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-size: 33px;color: rgb(85, 85, 85);">
+                        Create a Google Account
+                    </label>
+                    <br>
+                    <br>
+                    <label style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-size: 22px;">to continue to YouTube</label>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Enter Name" required name="name">
+                    <br>
+                    <input type="email" placeholder="Enter Email" required name="email">
+                    <br>
+                    <input type="password" placeholder="Enter Password" required name="password">
+                    <br>
+                    <input type="file" name="image" required>
+                    <br>
+                    <br>
+                    <label style="font-size: 20px;">Not your computer? Use Guest mode to sign in privately.</label>
+                    <br>
+                    <label><span style="color: blue; font-size: 20px;">Learn more</span></label>
+                    <br>
+                    <br>
+                    <input style="border-radius: 20px;width: 200px;
+                    font-size: 20px;color: white;
+                    background-color: blue;" type="submit" value="Create Account" name="register">
+                   </div>
+                </div>
+            </center>
+        </form>
+    </body>
+</html>

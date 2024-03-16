@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+            input{
+                border-radius: 10px;
+                padding: 10px;
+                margin-top: 15px;
+                font-size: 25px;
+                width: 420px;
+                border: 2px solid rgb(199, 199, 199);
+            }
+        </style>
+    </head>
+    <body>
+        <form action="connection.php" method="POST" enctype="multipart/form-data">
+            <center>
+                <div style="display: inline-block; border: 2px solid rgb(199, 199, 199);margin-top: 70px;
+                 height: 600px; width: 550px; border-radius: 15px;">
+                   <div style="margin-top: 40px;">
+                    <img src="images/youtube.png" style="height: 40px;" class="icon_yt"> </a>
+                    <label style="font-size: 30px; font-weight: bolder;margin-left: 5px;">
+                        Youtube
+                    </label>
+                    <br>
+                    <br>
+                    <label style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-size: 33px;color: rgb(85, 85, 85);">
+                       To Update Video title, fill  the below information
+                    </label>
+                    <br>
+                    <input type="text" placeholder="Enter Your Video id" required name="id">
+                    <br>
+                    <input type="text" placeholder="Enter Your Channel Name" required name="channel">
+                    <br>
+                    <input type="text" placeholder="Enter Your Video Title" required name="title">
+                    <br>
+                    <input type="file" name="videoFile" required>
+                    <br>
+                    <br>
+                    <label style="font-size: 20px;">Not your computer? Use Guest mode to sign in privately.</label>
+                    <br>
+                    <label><span style="color: blue; font-size: 20px;">Learn more</span></label>
+                    <br>
+                    <input type="submit" value="Update" name="Update" style="width: 100px;font-size: 20px;border-radius: 30px;color: white;background-color: blue;">
+
+                   </div>
+                </div>
+            </center>
+        </form>
+    </body>
+</html>
